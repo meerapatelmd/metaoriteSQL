@@ -3,7 +3,11 @@ Type: Package
 Title: metaorite SQL Package
 Version: 0.1.0
 Authors@R: 
-    person(given = "Meera", family = "Patel, MD", role = c("aut", "cre"), email = "patelmeeray@gmail.com")
+    person(given = "Meera",
+           family = "Patel, MD",
+           role = c("aut", "cre"),
+           email = "patelmeeray@gmail.com",
+           comment = c(ORCID = "0000-0002-3401-3948"))
 Description: 
     Query a MySQL5.5 Instance of the UMLS Metathesaurus. For Postgres, see the metaorite Package.
 License: Apache License 2.0
